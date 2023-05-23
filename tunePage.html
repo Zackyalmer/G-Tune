@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>G-Tune - Tuning Guitar Online</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="images/tuner.png" class="logo" />
+        <h2>G-Tune</h2>
+        <nav>
+
+          <ul>
+            <li><a href="homePage.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row tune">
+        <div class="coltune">
+            <div class="tunecard tunecard1" onclick="openPage('tuneDefault.html')">
+                <h5>Default Tuning</h5>
+                <br>
+                <p>Tune your guitar using standard tune EADGBE</p>
+            </div>
+            <div class="tunecard tunecard2" onclick="openPage('tuneAlt.html')">
+                <h5>Alternative Tuning</h5>
+                <br>
+                <p>Tune your guitar with alternative option</p>
+            </div>
+            <div class="tunecard tunecard3" onclick="openPage('tuneCustom.html')">
+                <h5>Custom Tuning</h5>
+                <br>
+                <p>Customize every string key tuning </p>
+            </div>
+            <div class="tunecard tunecard4" onclick="openPage('tuneTranspose.html')">
+              <h5>Transpose Tuning</h5>
+              <br>
+              <p>tuning into lower/higher key tuning </p>
+          </div>
+      </div>
+    </div>
+    <script src="function.js"></script>
+  </body>
+</html>

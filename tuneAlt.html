@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>G-Tune - Alternative Guitar Tuning</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+          <img src="images/tuner.png" class="logo" />
+          <h2>G-Tune</h2>
+          <nav>
+            <ul>
+              <li><a href="homePage.html">HOME</a></li>
+              <li><a href="">ABOUT</a></li>
+            </ul>
+          </nav>
+    </div>
+  <div class="keyAlt">
+    <select id="list-alt" onchange="getValueNotes()">
+    Choose alternative tuning:  <option value="1">Drop D</option>
+      <option value="2">Drop C</option>
+      <option value="3">Double Drop D</option>
+      <option value="4">Open D</option>
+      <option value="5">Open C</option>
+      <option value="6">Open G</option>
+      <option value="7">Cminor 11</option>
+      <option value="8">Bruno Major - Home</option>
+      <option value="9">Midwest emo on crack riff by Yvette</option>
+    </select>
+  </div>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="altTune.js"></script>
+
+
+</body>
+
+</html>

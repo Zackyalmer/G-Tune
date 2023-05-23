@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/back.jpg);
+    background-size: auto;
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 50px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+h2{
+  color:#fff;
+  margin-left: 20px;
+}
+h1{
+  padding-top: 0px;
+  color: #fff;
+  font-size: 50px;
+}
+.keyText{
+  color: #fff;
+  font-size: 14px;
+  line-height: 15px;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  padding-left: 300px;
+}
+.keyText p{
+  margin-left: 12px;
+}
+h5{
+  color: #fff;
+  font-size: 20px;
+}
+.keyAlt{
+  padding-top: 100px;
+  align-items: center;
+  text-align: center;
+}

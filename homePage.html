@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>G-Tune - Tuning Guitar Online</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="images/tuner.png" class="logo" />
+        <h2>G-Tune</h2>
+        <nav>
+          <ul>
+            <li><a href="homePage.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h1>G-Tune</h1>
+          <p>
+            Guitar tuner online website-base. Help you to tuning your guitar,
+            also you can learn basic guitar chord. Not only normal default
+            tuning but you have alternative option and you can customize each
+            strings.
+          </p>
+        </div>
+        <div class="col">
+            <div class="card card1" onclick="openPage('learnPage.html')">
+                <h5>Learn Guitar</h5>
+                <br>
+                <p>You will be learn a chord using chord's sheets.</p>
+            </div>
+            <div class="card card2" onclick="openPage('tunePage.html')">
+                <h5>Guitar Tuning</h5>
+                <br>
+                <p>Tune your guitar here.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="function.js"></script>
+  </body>
+</html>
